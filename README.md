@@ -1,4 +1,4 @@
-  # lotto
+  # cmore cardano 质押池用户抽奖代码
 
 [抽奖地址https://lotto.cmorepool.xyz](https://lotto.cmorepool.xyz)
 
