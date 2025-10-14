@@ -23,18 +23,6 @@ stake_address 用户质押的地址。
 ## 抽奖活动
 
 ###  2025-001
-```
-[{
-        "ada_range": [3,3999],
-        "prize_quantity": 3,
-        "prize_prob": 0.5
-    },
-    {
-        "ada_range": [4000,-1],
-        "prize_quantity": 6,
-        "prize_prob": 0.6
-    }]  
-```
 
 两种奖品，但是数量有限，先到先得。
 
@@ -49,7 +37,7 @@ stake_address 用户质押的地址。
 
   
 #### 奖品2
-条件 ： 必须质押cmore池 超过3个epoch；质押3000到3999的ada,
+条件 ： 必须质押cmore池 超过3个epoch；质押4000以上ada,
 奖品： 6 ada
 权重因子： 
 + block_hash: d417938d51ec2a82d7542a586badc0e268394fcfd72d085041d40db820bb9d98
