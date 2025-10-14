@@ -1,6 +1,6 @@
   # lotto
 
-(https://lotto.cmorepool.xyz)[抽奖地址]  
+[抽奖地址](https://lotto.cmorepool.xyz)
 
 ## 中奖影响因子
 + block_hash
