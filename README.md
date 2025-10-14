@@ -20,6 +20,47 @@ stake_address 用户质押的地址。
 代码是幂等性的，每次运行结果是一样的。 但是奖品有限，先到先得。
 
 
+## 抽奖活动
+
+###  2025-001
+```
+[{
+        "ada_range": [3,3999],
+        "prize_quantity": 3,
+        "prize_prob": 0.5
+    },
+    {
+        "ada_range": [4000,-1],
+        "prize_quantity": 6,
+        "prize_prob": 0.6
+    }]  
+```
+
+两种奖品，但是数量有限，先到先得。
+
+#### 奖品1
+条件 ： 必须质押cmore池 超过3个epoch；质押3000到3999的ada,
+奖品： 3 ada
+权重因子： 
++ block_hash: d417938d51ec2a82d7542a586badc0e268394fcfd72d085041d40db820bb9d98
++ external_factor ：10
++ 中奖概率： 50%
+
+
+  
+#### 奖品2
+条件 ： 必须质押cmore池 超过3个epoch；质押3000到3999的ada,
+奖品： 6 ada
+权重因子： 
++ block_hash: d417938d51ec2a82d7542a586badc0e268394fcfd72d085041d40db820bb9d98
++ external_factor ：10
++ 中奖概率： 60%
+
+###  2025-002（可能变动）
+
+
+
+
 ## 代码  
 ```
 def draw_result(block_hash: str, stake_address: str, draw_count: int, external_factor: int, prize_prob=0.05):
