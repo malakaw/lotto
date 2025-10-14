@@ -28,7 +28,9 @@ stake_address 用户质押的地址。
 
 #### 奖品1
 条件 ： 必须质押cmore池 超过3个epoch；质押3000到3999的ada,
+
 奖品： 3 ada
+
 权重因子： 
 + block_hash: d417938d51ec2a82d7542a586badc0e268394fcfd72d085041d40db820bb9d98
 + external_factor ：10
@@ -38,7 +40,9 @@ stake_address 用户质押的地址。
   
 #### 奖品2
 条件 ： 必须质押cmore池 超过3个epoch；质押4000以上ada,
+
 奖品： 6 ada
+
 权重因子： 
 + block_hash: d417938d51ec2a82d7542a586badc0e268394fcfd72d085041d40db820bb9d98
 + external_factor ：10
